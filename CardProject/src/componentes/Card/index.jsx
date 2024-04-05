@@ -1,10 +1,10 @@
 import Button from "../Button";
 
-export default function Card({title, posterImg, name, phone, email}) {
+export default function Card({name, posterImg, descricao, phone, email}) {
     return (
         <img src={posterImg} alt="profile" />,
-        <h3>{title}</h3>,
-        <p>{name}</p>,
+        <h3>{name}</h3>,
+        <p>{descricao}</p>,
         <hr />,
         <p>{phone}</p>,
         <hr />,
